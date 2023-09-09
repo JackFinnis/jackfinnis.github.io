@@ -29,6 +29,9 @@ button:hover, a:hover {
 }
 
 /* HEADERS */
+h1, h2, h3 {
+    font-weight: 600;
+}
 h1 {
     padding-bottom: 15px
 }

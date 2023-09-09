@@ -1,0 +1,101 @@
+/* SETUP */
+* {
+    box-sizing: border-box;
+}
+html {
+    font-family: system-ui;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    scroll-behavior: smooth;
+    padding: 25px 20px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p, h1, h2, h3, body {
+    margin: 0px;
+}
+
+/* BUTTONS */
+a, button {
+    text-decoration: none;
+    transition: opacity 0.35s;
+    color: inherit
+}
+button:hover, a:hover {
+    opacity: 0.7;
+}
+
+/* HEADERS */
+h1 {
+    padding-bottom: 15px
+}
+h2 {
+    padding: 10px 0px;
+}
+h3 {
+    padding-bottom: 5px;
+}
+
+/* GENERAL */
+.larger {
+    font-size: 1.1rem;
+}
+.symbol {
+    width: 30px;
+}
+
+/* INTRO */
+#intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    text-align: center;
+}
+#logo {
+    width: 130px;
+    border-radius: 100%;
+}
+#links {
+    display: flex;
+    gap: 25px;
+}
+
+/* PROJECTS */
+#projects {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin: 10px 0px;
+}
+.project {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 10px 10px #eee;
+}
+.project_img {
+    aspect-ratio: 1;
+    width: 100%;
+    object-fit: cover;
+}
+.project_content {
+    padding: 12px 15px 15px 15px;
+}
+
+/* DARK MODE */
+@media (prefers-color-scheme: dark) {
+    html {
+        color: white;
+        background-color: black;
+    }
+    .symbol {
+        filter: invert(1);
+    }
+    .project {
+        box-shadow: none;
+        background-color: #222222;
+    }
+}

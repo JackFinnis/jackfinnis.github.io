@@ -1,4 +1,2 @@
 # Jack Finnis
-Student & Developer
-
-jackfinnis.github.io
+https://jackfinnis.github.io

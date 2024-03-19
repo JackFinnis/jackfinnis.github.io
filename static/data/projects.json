@@ -1,0 +1,98 @@
+[
+    {
+        "title": "Papa John's Widget",
+        "description": "Built a widget for the PapaJohns iOS app which shows your current order status and today's offers.",
+        "image": "papa_johns.jpeg",
+        "url": ""
+    },
+    {
+        "title": "GeoViewer",
+        "description": "GeoViewer allows you to import and browse the most common geodata formats: GPX, KML and GeoJSON.",
+        "image": "geo_viewer.jpeg",
+        "url": "https://apps.apple.com/app/6443628020"
+    },
+    {
+        "title": "Just Cook",
+        "description": "Store all your recipes, plan meals and manage your shopping list with Just Cook!",
+        "image": "just_cook.jpeg",
+        "url": "https://apps.apple.com/app/6443628020"
+    },
+    {
+        "title": "Cycle Lane",
+        "description": "Cycle Lane shows you every TfL cycle route in London on one map.",
+        "image": "cycle_lane.jpeg",
+        "url": "https://apps.apple.com/app/6443831383"
+    },
+    {
+        "title": "Texaco Rewards",
+        "description": "Built an App Clip for Texaco which provides a fast, streamlined sign up process for their rewards program.",
+        "image": "texaco_rewards.jpeg",
+        "url": ""
+    },
+    {
+        "title": "Ecommunity",
+        "description": "Ever thought your actions for the environment won't make a difference? Ecommunity allows you and your friends to post your good deeds for the environment to motivate each other.",
+        "image": "ecommunity.jpeg",
+        "url": ""
+    },
+    {
+        "title": "Paddle Map",
+        "description": "Paddle Map helps kayakers navigate over 4,500km of canals and rivers in the UK, including 2,761 locks and weirs.",
+        "image": "paddle_map.jpeg",
+        "url": "https://apps.apple.com/app/6443834631"
+    },
+    {
+        "title": "Jack Finnis Art",
+        "description": "I run my own online art business selling charity Christmas and greeting cards.",
+        "image": "toboggan_ride.jpeg",
+        "url": "https://www.jackfinnis.com"
+    },
+    {
+        "title": "Norfolk Churches Cycle Route",
+        "description": "Built an app for the Norfolk tourist board which displays a 2,000 km cycle route around Norfolk's 632 medieval churches.",
+        "image": "nccr.jpeg",
+        "url": "https://apps.apple.com/app/1580773042"
+    },
+    {
+        "title": "Deloitte Cinema Booking App",
+        "description": "Researched, designed and built a cinema ticket booking app for iOS.",
+        "image": "cinema_ticket_booking.jpeg",
+        "url": "https://www.youtube.com/watch?v=hMWcHcFDjs4"
+    },
+    {
+        "title": "Quick-fire Questions",
+        "description": "Quick-fire Questions helps students retain the information they learn in class.",
+        "image": "quickfire_questions.jpeg",
+        "url": "https://apps.apple.com/app/1604276626"
+    },
+    {
+        "title": "Machine Learning in R",
+        "description": "Analysed air quality data using Neural Networks and Principal Component Analysis in R.",
+        "image": "air_quality.jpeg",
+        "url": "https://www.youtube.com/watch?v=DxXmsUqNYYM"
+    },
+    {
+        "title": "Complex Fourier Series Visualiser",
+        "description": "Built an app which trasforms an svg file or image into an epicycle drawing using the complex Fourier series.",
+        "image": "fourier.jpeg",
+        "url": "https://apps.apple.com/app/1582827502"
+    },
+    {
+        "title": "Conway's Game of Life",
+        "description": "Conway's Game of Life is a cellular automaton which derives each new state based on a set of rules applied to the current state.",
+        "image": "game_of_life.jpeg",
+        "url": "https://apps.apple.com/app/id1581284326"
+    },
+    {
+        "title": "MyMap Workout Tracker",
+        "description": "MyMap shows you all your walks, runs and cycle routes on one map.",
+        "image": "my_map.jpeg",
+        "url": "https://www.youtube.com/watch?v=4aYQxJ3Ify8"
+    },
+    {
+        "title": "Moore's Law and the Transistor",
+        "description": "Researched the most important company that no-one has heard of: ASML.",
+        "image": "moores_law.jpeg",
+        "url": "https://www.youtube.com/watch?v=ieb2mntI3pw"
+    }
+]

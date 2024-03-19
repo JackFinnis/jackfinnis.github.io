@@ -1,18 +1,16 @@
 /* SETUP */
 * {
     box-sizing: border-box;
+    font-family: system-ui;
+    margin: 0px;
+    margin: 0px;
 }
-html {
-    /* CONSTANTS */
+:root {
     --animation_duration: 0.35s;
 
-    font-family: ui-sans-serif;
     font-size: 1.1rem;
     line-height: 1.5rem;
     padding: 30px 20px;
-}
-p, h1, h2, h3, body {
-    margin: 0px;
 }
 
 /* GENERAL */
@@ -75,7 +73,7 @@ h3 {
 }
 
 /* PROJECTS */
-#projects {
+#projects_grid {
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

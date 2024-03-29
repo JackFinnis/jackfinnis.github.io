@@ -2,8 +2,7 @@
     {
         "title": "Papa John's Widget",
         "description": "Built a widget for the PapaJohns iOS app which shows your current order status and today's offers.",
-        "image": "papa_johns.jpeg",
-        "url": ""
+        "image": "papa_johns.jpeg"
     },
     {
         "title": "GeoViewer",
@@ -26,14 +25,12 @@
     {
         "title": "Texaco Rewards",
         "description": "Built an App Clip for Texaco which provides a fast, streamlined sign up process for their rewards program.",
-        "image": "texaco_rewards.jpeg",
-        "url": ""
+        "image": "texaco_rewards.jpeg"
     },
     {
         "title": "Ecommunity",
         "description": "Ever thought your actions for the environment won't make a difference? Ecommunity allows you and your friends to post your good deeds for the environment to motivate each other.",
-        "image": "ecommunity.jpeg",
-        "url": ""
+        "image": "ecommunity.jpeg"
     },
     {
         "title": "Paddle Map",

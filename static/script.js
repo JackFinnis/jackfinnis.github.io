@@ -13,22 +13,27 @@ async function load_projects() {
         project_box.className = 'project'
         projects_grid.appendChild(project_box)
         
-        img = document.createElement('img')
-        img.className = 'project_img'
-        img.src = 'static/images/projects/' + project.image
-        project_box.appendChild(img)
+        image = document.createElement('img')
+        image.className = 'project_img'
+        image.src = 'static/images/projects/' + project.image
+        project_box.appendChild(image)
         
         content = document.createElement('div')
         content.className = 'project_content'
         project_box.appendChild(content)
 
-        h3 = document.createElement('h3')
-        h3.innerHTML = project.title
-        content.appendChild(h3)
+        title = document.createElement('h3')
+        title.innerHTML = project.title
+        content.appendChild(title)
 
-        p = document.createElement('p')
-        p.innerHTML = project.description
-        content.appendChild(p)
+        date = document.createElement('p')
+        date.className = 'project_date'
+        date.innerHTML = project.date
+        content.appendChild(date)
+
+        description = document.createElement('p')
+        description.innerHTML = project.description
+        content.appendChild(description)
     }
 }
 

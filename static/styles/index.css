@@ -1,0 +1,55 @@
+/* HEADER */
+#header {
+    gap: 25px;
+    text-align: center;
+}
+#profile_pic {
+    width: 130px;
+    border-radius: 100%;
+}
+#links {
+    display: flex;
+    gap: 25px;
+}
+#cv {
+    font-size: 1.5rem;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+/* MAIN CONTENT */
+#main_content {
+    max-width: 1200px;
+}
+.content_section {
+    padding-top: 25px;
+}
+
+/* PROJECTS */
+#projects_grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin: 10px 0px;
+}
+.project {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 10px 10px #eee;
+}
+.project_img {
+    aspect-ratio: 1;
+    width: 100%;
+    object-fit: cover;
+}
+.project_date {
+    color: var(--secondary);
+}
+.project_content {
+    padding: 12px 15px 15px 15px;
+}
+
+/* FOOTER */
+#footer {
+    padding: 20px;
+}

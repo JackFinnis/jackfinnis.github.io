@@ -187,5 +187,12 @@
         "discount": "£10 preview tickets to all shows",
         "url": "https://www.oldvictheatre.com/ticket-info/pwc-10-previews/",
         "image": "https://media.timeout.com/images/105605542/image.jpg"
+    },
+    {
+        "name": "Wigmore Hall",
+        "types": "Music",
+        "discount": "£5 tickets to all shows for under 35s",
+        "url": "https://www.wigmore-hall.org.uk/whats-on/series/under-35",
+        "image": "https://admin.wigmore-hall.org.uk/images/bK9kj8QE-gX-ylNdofIxil3NHS4=/2222/format-webp%7Cwidth-1600/f_KK_03832_2.jpg"
     }
 ]

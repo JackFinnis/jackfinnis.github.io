@@ -4,14 +4,56 @@
         <meta charset="utf-8">
         <title>Discounts</title>
 
-        <script src="/static/scripts/discounts.js"></script>
-        <link rel="stylesheet" href="/static/styles/shared.css">
-        <link rel="stylesheet" href="/static/styles/discounts.css">
-
+        <link rel="stylesheet" href="/static/style.css">
         <meta name="viewport" content="width=device-width, viewport-fit=cover">
     </head>
-    <body>
-        <h1>Every Student Discount for Theatre, Musicals, Opera, Music, Dance and Film Tickets in London</h1>
-        <div id="discounts"></div>
+    <body class="center">
+        <div class="content column large_gap">
+            <div class="column align_leading large_gap">
+                <h1>London Theatre Student Discounts</h1>
+                <p>This is a comprehensive list of every student discount available for theatre, musical, opera, music, dance and film tickets in London. Please <a href="mailto:jack.finnis@icloud.com" target="_blank">email me</a> if I have missed any and I will include them here.</p>
+                <div id="discounts_grid" class="grid large_gap"></div>
+            </div>
+            <a id="footer" href="/">© 2024 Jack Finnis</a>
+        </div>
+        <script>
+async function load_discounts() {
+    let response = await fetch('/static/data/discounts.json')
+    let theatres = await response.json()
+    let sorted = theatres.sort((a, b) => a.name.localeCompare(b.name))
+    
+    for (let theatre of sorted) {
+        item = document.createElement('a')
+        item.className = 'item'
+        item.href = theatre.url
+        item.target = '_blank'
+        discounts_grid.appendChild(item)
+        
+        image = document.createElement('img')
+        image.className = 'item_image'
+        image.src = theatre.image
+        item.appendChild(image)
+        
+        content = document.createElement('div')
+        content.className = 'item_content'
+        item.appendChild(content)
+
+        title = document.createElement('h3')
+        title.innerHTML = theatre.name
+        content.appendChild(title)
+
+        types = document.createElement('p')
+        types.className = 'secondary'
+        types.innerHTML = theatre.types
+        content.appendChild(types)
+
+        discount = document.createElement('p')
+        discount.innerHTML = theatre.discount
+        content.appendChild(discount)
+    }
+}
+
+load_discounts().then()
+        </script>
     </body>
 </html>

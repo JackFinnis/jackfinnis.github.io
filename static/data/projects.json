@@ -1,5 +1,24 @@
 [
     {
+        "title": "London Theatre Student Discounts",
+        "description": "Every student discount available for theatre, musical, opera, music, dance and film tickets in London.",
+        "image": "theatre_discounts.jpeg",
+        "url": "/discounts",
+        "date": "June 2024"
+    },
+    {
+        "title": "Find a Church",
+        "description": "Browse over 45,000 UK churches and mark churches as visited to track your progress.",
+        "image": "churches.jpeg",
+        "date": "May 2024"
+    },
+    {
+        "title": "My Quotes",
+        "description": "Store your favourite quotes and see them on your home screen to motivate you throughout the day.",
+        "image": "quotes.jpeg",
+        "date": "April 2024"
+    },
+    {
         "title": "Tube Status",
         "description": "View the live status of all London TfL tube lines, buses and river services.",
         "image": "tube_status.jpeg",

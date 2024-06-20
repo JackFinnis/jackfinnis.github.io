@@ -130,7 +130,7 @@
         "types": "Plays, Musicals",
         "discount": "On-the-day cheap lottery tickets to London shows",
         "url": "https://www.todaytix.com/london/category/rush-tickets",
-        "image": "https://images.ctfassets.net/6pezt69ih962/2aAlfwcQVhdFJU0AEP5Nhd/c6cd7cea2b0cd622cb04244d175e5865/NY_M_Rush_Lottery_HarryPotter.png"
+        "image": "https://i.ebayimg.com/images/g/uIkAAOSwxy5cbqx3/s-l1600.jpg"
     },
     {
         "name": "Royal Court Theatre",
@@ -194,5 +194,12 @@
         "discount": "£5 tickets to all shows for under 35s",
         "url": "https://www.wigmore-hall.org.uk/whats-on/series/under-35",
         "image": "https://admin.wigmore-hall.org.uk/images/bK9kj8QE-gX-ylNdofIxil3NHS4=/2222/format-webp%7Cwidth-1600/f_KK_03832_2.jpg"
+    },
+    {
+        "name": "Student Pulse",
+        "types": "Music",
+        "discount": "£10 tickets to selected London concerts for students",
+        "url": "https://studentpulselondon.co.uk",
+        "image": "https://studentpulselondon.co.uk/media/com_eventbooking/images/thumbs/8._marin_alsop_c._chris_christodoulou.png"
     }
 ]

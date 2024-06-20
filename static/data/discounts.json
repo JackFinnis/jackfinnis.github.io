@@ -29,8 +29,8 @@
     },
     {
         "name": "Barbican Centre",
-        "types": "Films",
-        "discount": "£5 tickets to films for 14-25 year olds",
+        "types": "Film, Music, Theatre, Art",
+        "discount": "£5 tickets to events for 14-25 year olds",
         "url": "https://www.barbican.org.uk/join-support/young-barbican",
         "image": "https://www.thecityofldn.com/wp-content/uploads/2023/06/barbicancentre-lakesideterrace-credit-maxcolson.jpg"
     },
@@ -119,13 +119,6 @@
         "image": "https://images.bac.org.uk/uploads/2022/05/BAC-front-image_crop.jpeg?resize=600%2C300&gravity"
     },
     {
-        "name": "Southbank Centre",
-        "types": "Music",
-        "discount": "25% off tickets to selected shows for students",
-        "url": "https://www.southbankcentre.co.uk/visit/frequently-asked-questions",
-        "image": "https://assets.londonist.com/uploads/2017/01/i875/8292767900_1d09c35508_b.jpg"
-    },
-    {
         "name": "TodayTix Rush Tickets",
         "types": "Plays, Musicals",
         "discount": "On-the-day cheap lottery tickets to London shows",
@@ -201,5 +194,75 @@
         "discount": "£10 tickets to selected London concerts for students",
         "url": "https://studentpulselondon.co.uk",
         "image": "https://studentpulselondon.co.uk/media/com_eventbooking/images/thumbs/8._marin_alsop_c._chris_christodoulou.png"
+    },
+    {
+        "name": "Cadogan Hall",
+        "types": "Music",
+        "discount": "Discounted tickets to selected shows for students",
+        "url": "https://cadoganhall.com/your-visit/booking-information/",
+        "image": "https://www.theatretokens.com/imagegen.ashx?image=%2Fuploaded_files%2Ftheatre_images%2F2223_4122_Cadogan%2BHall.jpg"
+    },
+    {
+        "name": "BBC Proms at the Royal Albert Hall",
+        "types": "Music",
+        "discount": "£8 on-the-day standing tickets to summer Proms",
+        "url": "https://www.bbc.co.uk/proms",
+        "image": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/166000/166943-Royal-Albert-Hall.jpg"
+    },
+    {
+        "name": "Opera Holland Park",
+        "types": "Opera",
+        "discount": "£15 tickets to select shows for under 30s",
+        "url": "https://operahollandpark.com/season-and-events/ticket-schemes/under-30s-scheme/",
+        "image": "https://cdn.apollo.audio/one/media/64b9/4472/d988/5106/13c4/29a1/OHP%20Header%20(Article).png"
+    },
+    {
+        "name": "Student Art Pass",
+        "types": "Art",
+        "discount": "50% off tickets to major London exhibitions for students",
+        "url": "https://www.studentartpass.org",
+        "image": "https://www.arts.ac.uk/__data/assets/image/0020/190091/AF_Paper_620x364.jpg"
+    },
+    {
+        "name": "Tate Collective",
+        "types": "Art",
+        "discount": "£5 tickets to exhibitions for 16-25 year olds",
+        "url": "https://www.tate.org.uk/tate-collective",
+        "image": "https://offloadmedia.feverup.com/secretldn.com/wp-content/uploads/2020/02/22151312/shutterstock_1782404009-min-1024x683.jpg"
+    },
+    {
+        "name": "Dulwich Picture Gallery",
+        "types": "Art",
+        "discount": "50% off tickets to exhibitions for under 30s",
+        "url": "https://www.dulwichpicturegallery.org.uk/planning-your-visit/under-30s/",
+        "image": "https://www.nationalreview.com/wp-content/uploads/2022/02/3-DulwichPictureGallery-AdamScott-10-1.jpg"
+    },
+    {
+        "name": "National Portrait Gallery",
+        "types": "Art",
+        "discount": "£5 tickets to exhibitions for under 25s",
+        "url": "https://www.npg.org.uk/whatson/pay-what-you-wish",
+        "image": "https://focus.courrierinternational.com/2022/03/12/0/0/1620/1080/1280/0/60/0/8fcdcbf_1647116989888-1620px-national-portrait-gallery-40400017530.jpg"
+    },
+    {
+        "name": "Curzon Cinemas",
+        "types": "Films",
+        "discount": "£6 off-peak tickets to all films for under 25s",
+        "url": "https://www.curzon.com/under-25s-membership/",
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/96/4c/25/film-lovers-welcome-home.jpg?w=1200&h=-1&s=1"
+    },
+    {
+        "name": "London Philharmonic Orchestra",
+        "types": "Music",
+        "discount": "Discounted tickets to all concerts for under 30s",
+        "url": "https://lpo.org.uk/tickets-and-discounts/under-30s/",
+        "image": "https://d3mqx2bczuht49.cloudfront.net/_imager/files/Aldebugh-Festival-2024/790602/LPORFH1_e57078b35996c6eab992c4d898046c39.JPG"
+    },
+    {
+        "name": "Courtauld Gallery",
+        "types": "Art",
+        "discount": "Free entry for students",
+        "url": "https://courtauld.ac.uk/gallery/plan-your-visit/",
+        "image": "https://sothebys-com.brightspotcdn.com/e9/b0/13e39fb18576c75766f299ca3092/1-courtauld-exterior.jpg"
     }
 ]

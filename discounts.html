@@ -14,7 +14,11 @@
         <div class="content column large_gap">
             <div class="column align_leading large_gap">
                 <h1>London Culture Student Discounts</h1>
-                <p>This is a comprehensive list of every major student discount available for plays, musical, opera, music, dance, film and art tickets in London. Please <a href="mailto:jack.finnis@icloud.com" target="_blank">email me</a> if I have missed any and I will include them here.</p>
+                <p>
+                    This is a comprehensive list of every major student discount available for theatre, opera, music, dance, film and art tickets in London.
+                    Please <a class="underline" href="mailto:jack.finnis@icloud.com" target="_blank">email me</a> if I have missed any and I will include them here.
+                    KCL has put together <a class="underline" href="https://www.kcl.ac.uk/cultural/connecting/explore-cultural-london" target="_blank">this</a> fantastic summary of cultural London.
+                </p>
                 <div id="discounts_grid" class="grid large_gap"></div>
             </div>
             <a id="footer" href="/">© 2024 Jack Finnis</a>
@@ -45,10 +49,16 @@ async function load_discounts() {
         title.innerHTML = theatre.name
         content.appendChild(title)
 
-        types = document.createElement('p')
-        types.className = 'secondary'
-        types.innerHTML = theatre.types
+        types = document.createElement('div')
+        types.className = 'row small_gap'
         content.appendChild(types)
+
+        for (let type of theatre.types.split(',').toSorted()) {
+            p = document.createElement('p')
+            p.className = 'secondary'
+            p.innerHTML = type
+            types.appendChild(p)
+        }
 
         discount = document.createElement('p')
         discount.innerHTML = theatre.discount

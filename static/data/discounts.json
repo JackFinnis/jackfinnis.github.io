@@ -1,50 +1,50 @@
 [
     {
         "name": "ATG Tickets",
-        "types": "Plays, Musicals",
-        "discount": "£25 tickets to selected London shows for students",
+        "types": "Theatre",
+        "discount": "£25 tickets to selected West End shows for students",
         "url": "https://www.atgtickets.com/offers/student-offers/",
         "image": "https://i.ebayimg.com/images/g/uIkAAOSwxy5cbqx3/s-l1600.jpg"
     },
     {
         "name": "Donmar Warehouse",
-        "types": "Plays, Musicals",
+        "types": "Theatre",
         "discount": "Free tickets to all shows for 16-25 year olds",
         "url": "https://www.donmarwarehouse.com/pQ1jeFP/young-and-free",
         "image": "https://media.cntraveler.com/photos/55c4fa5f84775cba0a7b8b2d/16:9/w_2560,c_limit/donmar-warehouse-theatre-london-cr-alamy.jpg"
     },
     {
         "name": "National Theatre",
-        "types": "Plays, Musicals",
+        "types": "Theatre",
         "discount": "£10 tickets to all shows for 16-25 year olds",
         "url": "https://www.nationaltheatre.org.uk/16-25-tickets/",
         "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/8a/f2/5d/national-theatre.jpg?w=1200&h=-1&s=1"
     },
     {
         "name": "Royal Shakespeare Company",
-        "types": "Plays, Musicals",
+        "types": "Theatre",
         "discount": "£10 tickets to all shows for students and 14-25 year olds",
         "url": "https://www.rsc.org.uk/tiktok-10-tickets",
         "image": "https://ramadacoventry.co.uk/wp-content/uploads/2019/07/royal-shakespeare-company.jpg"
     },
     {
         "name": "Barbican Centre",
-        "types": "Film, Music, Theatre, Art",
+        "types": "Film,Music,Theatre,Art",
         "discount": "£5 tickets to events for 14-25 year olds",
         "url": "https://www.barbican.org.uk/join-support/young-barbican",
         "image": "https://www.thecityofldn.com/wp-content/uploads/2023/06/barbicancentre-lakesideterrace-credit-maxcolson.jpg"
     },
     {
         "name": "Young Vic Theatre",
-        "types": "Plays",
+        "types": "Theatre",
         "discount": "£12 tickets to all shows for students and under 25s",
         "url": "https://www.youngvic.org/visit-us/concessions",
         "image": "https://saltertonartsreview.com/wp-content/uploads/2021/10/WhatsApp-Image-2021-10-07-at-14.19.49-1.jpeg"
     },
     {
         "name": "Go Live Theatre Projects",
-        "types": "Plays, Musicals",
-        "discount": "£15 tickets to selected London shows for 19-24 year olds",
+        "types": "Theatre",
+        "discount": "£15 tickets to selected shows for 19-24 year olds",
         "url": "https://golivetheatre.org.uk/go-live/",
         "image": "https://upload.wikimedia.org/wikipedia/commons/5/5c/St_Martin%27s_Theatre_-_The_Mousetrap.jpg"
     },
@@ -57,21 +57,21 @@
     },
     {
         "name": "Almeida Theatre",
-        "types": "Plays",
+        "types": "Theatre",
         "discount": "£5 tickets to all shows for under 25s",
         "url": "https://almeida.co.uk/concessions",
         "image": "https://cdn.londonandpartners.com/asset/f92035c8772fa92cccc4d8f2f0f078d3.jpg"
     },
     {
         "name": "Bush Theatre",
-        "types": "Plays",
+        "types": "Theatre",
         "discount": "£10 off tickets to all shows for students and under 30s",
         "url": "https://www.bushtheatre.co.uk/your-visit/memberships/bush-connect/",
         "image": "https://d25hwkr75zzfa.cloudfront.net/store/photo/large/building_11992_daytime-outside-credit-philip-vile-for-the-bush-theatre_d410aac4be5190484396491f395c97a2.jpg"
     },
     {
         "name": "Bridge Theatre",
-        "types": "Plays, Musicals",
+        "types": "Theatre",
         "discount": "£15 tickets to all shows for 16-25 year olds",
         "url": "https://bridgetheatre.co.uk/youngbridge/",
         "image": "https://bridge-theatre-live.s3.eu-west-1.amazonaws.com/wp-content/uploads/2018/04/Bridge-Theatre-Exterior.jpg"
@@ -85,7 +85,7 @@
     },
     {
         "name": "Hampstead Theatre",
-        "types": "Plays, Musicals",
+        "types": "Theatre",
         "discount": "£10 tickets to all shows for students and under 30s",
         "url": "https://www.hampsteadtheatre.com/your-visit/under-30s/",
         "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Hampstead_Theatre_in_2010.jpg"
@@ -93,90 +93,90 @@
     {
         "name": "Sadler's Wells",
         "types": "Dance",
-        "discount": "£10 tickets to all shows for 16-30 year olds",
+        "discount": "£10 tickets to all performances for 16-30 year olds",
         "url": "https://www.sadlerswells.com/barclays-dance-pass/",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Sadler%27s_Wells_Theatre_%28September_2015%29.jpg/1200px-Sadler%27s_Wells_Theatre_%28September_2015%29.jpg"
     },
     {
         "name": "British Film Institute",
-        "types": "Films",
-        "discount": "£3 tickets to all cinema for 16-25 year olds",
+        "types": "Film",
+        "discount": "£3 tickets to all films for 16-25 year olds",
         "url": "https://whatson.bfi.org.uk/Online/default.asp?BOparam::WScontent::loadArticle::permalink=25-and-under&BOparam::WScontent::loadArticle::context_id=",
         "image": "https://www.carlislesupportservices.com/wp-content/uploads/2020/01/PHOTO-BFI.jpg"
     },
     {
         "name": "Regents Park Open Air Theatre",
-        "types": "Plays, Musicals",
+        "types": "Theatre",
         "discount": "£10 tickets to previews and matinees for 18-25 year olds",
         "url": "https://openairtheatre.com/breeze",
         "image": "https://images.ctfassets.net/6pezt69ih962/55doUwxqcYCCG0KgRDvVtZ/9caaa9d5e731dc8053a2dc9088b83626/Auditorium_Photo_1600x1200px_TodayTix__1_.jpg"
     },
     {
         "name": "Battersea Arts Centre",
-        "types": "Plays",
+        "types": "Theatre",
         "discount": "£8 tickets to all shows",
         "url": "https://www.bac.org.uk/",
         "image": "https://images.bac.org.uk/uploads/2022/05/BAC-front-image_crop.jpeg?resize=600%2C300&gravity"
     },
     {
         "name": "TodayTix Rush Tickets",
-        "types": "Plays, Musicals",
-        "discount": "On-the-day cheap lottery tickets to London shows",
+        "types": "Theatre",
+        "discount": "£25 on-the-day lottery tickets to selected West End shows",
         "url": "https://www.todaytix.com/london/category/rush-tickets",
         "image": "https://i.ebayimg.com/images/g/uIkAAOSwxy5cbqx3/s-l1600.jpg"
     },
     {
         "name": "Royal Court Theatre",
-        "types": "Plays",
+        "types": "Theatre",
         "discount": "£15 tickets to selected shows for under 30s",
         "url": "https://royalcourttheatre.com/your-visit/tickets/ways-to-save/",
         "image": "https://d19lfjg8hluhfw.cloudfront.net/wp-content/uploads/2016/09/22184002/©HelenMurray-Royal-Court-misc-9.jpg"
     },
     {
         "name": "Kiln Theatre",
-        "types": "Plays, Films",
+        "types": "Theatre,Film",
         "discount": "£10 tickets to all shows for under 26s",
         "url": "https://kilntheatre.com/creative-engagement/young-people/",
         "image": "https://cdn.charcoalblue.com/uploads/images/Projects/Kiln/_full/Kiln-Theatre_CB_credit-Philip-Vile_website_049.jpg?v=1698766214"
     },
     {
         "name": "Shakespeare's Globe",
-        "types": "Plays",
+        "types": "Theatre",
         "discount": "£5 standing tickets to all shows",
         "url": "https://www.shakespearesglobe.com",
         "image": "https://libapps-au.s3-ap-southeast-2.amazonaws.com/customers/7890/images/The-Globe-14.jpg"
     },
     {
         "name": "The Yard Theatre",
-        "types": "Plays",
-        "discount": "£5 tickets on the night for under 27s",
+        "types": "Theatre",
+        "discount": "'No Empty Seats' £5 on-the-night tickets to all shows for under 27s",
         "url": "https://www.theyardtheatre.co.uk/your-visit",
         "image": "https://www.theyardtheatre.co.uk/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fvs3yf10f%2Fproduction%2F8b1b2ce62087d9b411b0df7bbd00f9569d6a0f65-6016x4011.jpg%3Ffit%3Dmax%26auto%3Dformat&w=3840&q=95"
     },
     {
         "name": "Lyric Theatre",
-        "types": "Plays",
+        "types": "Theatre",
         "discount": "£5 tickets to all shows for under 25s",
         "url": "https://lyric.co.uk/young-lyric/membership/",
         "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/4b/55/9c/lyric-hammersmith.jpg?w=1200&h=-1&s=1"
     },
     {
         "name": "Park Theatre",
-        "types": "Plays",
+        "types": "Theatre",
         "discount": "£10 tickets to all shows for 16-25 year olds",
         "url": "https://parktheatre.co.uk/get-involved/park-up/",
         "image": "https://e9ceq93ysu3.exactdn.com/wp-content/uploads/2024/05/Park-VENUE-2021-edits-54-640x480.jpeg?strip=all&lossy=1&ssl=1"
     },
     {
         "name": "Theatre Royal Stratford East",
-        "types": "Plays",
+        "types": "Theatre",
         "discount": "£15 tickets to selected shows for 17-25 year olds",
         "url": "https://www.stratfordeast.com/your-visit/booking-information/",
         "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Theatre_Royal_Stratford_East.JPG"
     },
     {
         "name": "The Old Vic",
-        "types": "Plays",
+        "types": "Theatre",
         "discount": "£10 preview tickets to all shows",
         "url": "https://www.oldvictheatre.com/ticket-info/pwc-10-previews/",
         "image": "https://media.timeout.com/images/105605542/image.jpg"
@@ -196,23 +196,16 @@
         "image": "https://studentpulselondon.co.uk/media/com_eventbooking/images/thumbs/8._marin_alsop_c._chris_christodoulou.png"
     },
     {
-        "name": "Cadogan Hall",
-        "types": "Music",
-        "discount": "Discounted tickets to selected shows for students",
-        "url": "https://cadoganhall.com/your-visit/booking-information/",
-        "image": "https://www.theatretokens.com/imagegen.ashx?image=%2Fuploaded_files%2Ftheatre_images%2F2223_4122_Cadogan%2BHall.jpg"
-    },
-    {
         "name": "BBC Proms at the Royal Albert Hall",
         "types": "Music",
-        "discount": "£8 on-the-day standing tickets to summer Proms",
+        "discount": "£8 on-the-day standing tickets to all summer Proms",
         "url": "https://www.bbc.co.uk/proms",
         "image": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/166000/166943-Royal-Albert-Hall.jpg"
     },
     {
         "name": "Opera Holland Park",
         "types": "Opera",
-        "discount": "£15 tickets to select shows for under 30s",
+        "discount": "£15 tickets to selected summer shows for under 30s",
         "url": "https://operahollandpark.com/season-and-events/ticket-schemes/under-30s-scheme/",
         "image": "https://cdn.apollo.audio/one/media/64b9/4472/d988/5106/13c4/29a1/OHP%20Header%20(Article).png"
     },
@@ -226,27 +219,27 @@
     {
         "name": "Tate Collective",
         "types": "Art",
-        "discount": "£5 tickets to exhibitions for 16-25 year olds",
+        "discount": "£5 tickets to all exhibitions for 16-25 year olds",
         "url": "https://www.tate.org.uk/tate-collective",
         "image": "https://offloadmedia.feverup.com/secretldn.com/wp-content/uploads/2020/02/22151312/shutterstock_1782404009-min-1024x683.jpg"
     },
     {
         "name": "Dulwich Picture Gallery",
         "types": "Art",
-        "discount": "50% off tickets to exhibitions for under 30s",
+        "discount": "50% off tickets to all exhibitions for under 30s",
         "url": "https://www.dulwichpicturegallery.org.uk/planning-your-visit/under-30s/",
         "image": "https://www.nationalreview.com/wp-content/uploads/2022/02/3-DulwichPictureGallery-AdamScott-10-1.jpg"
     },
     {
         "name": "National Portrait Gallery",
         "types": "Art",
-        "discount": "£5 tickets to exhibitions for under 25s",
+        "discount": "£5 tickets to all exhibitions for under 25s",
         "url": "https://www.npg.org.uk/whatson/pay-what-you-wish",
         "image": "https://focus.courrierinternational.com/2022/03/12/0/0/1620/1080/1280/0/60/0/8fcdcbf_1647116989888-1620px-national-portrait-gallery-40400017530.jpg"
     },
     {
         "name": "Curzon Cinemas",
-        "types": "Films",
+        "types": "Film",
         "discount": "£6 off-peak tickets to all films for under 25s",
         "url": "https://www.curzon.com/under-25s-membership/",
         "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/96/4c/25/film-lovers-welcome-home.jpg?w=1200&h=-1&s=1"
@@ -257,12 +250,5 @@
         "discount": "Discounted tickets to all concerts for under 30s",
         "url": "https://lpo.org.uk/tickets-and-discounts/under-30s/",
         "image": "https://d3mqx2bczuht49.cloudfront.net/_imager/files/Aldebugh-Festival-2024/790602/LPORFH1_e57078b35996c6eab992c4d898046c39.JPG"
-    },
-    {
-        "name": "Courtauld Gallery",
-        "types": "Art",
-        "discount": "Free entry for students",
-        "url": "https://courtauld.ac.uk/gallery/plan-your-visit/",
-        "image": "https://sothebys-com.brightspotcdn.com/e9/b0/13e39fb18576c75766f299ca3092/1-courtauld-exterior.jpg"
     }
 ]

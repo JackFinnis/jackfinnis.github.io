@@ -120,6 +120,7 @@ button, a {
 @media(hover: hover) {
     button:hover, a:hover {
         opacity: 0.75;
+        text-decoration: none;
     }
 }
 .prominent_button {
@@ -137,6 +138,9 @@ button, a {
     .prominent_button .icon {
         filter: none
     }
+}
+.underline {
+    text-decoration: underline;
 }
 
 /* FOOTER */

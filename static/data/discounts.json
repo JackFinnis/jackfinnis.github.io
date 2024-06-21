@@ -250,5 +250,12 @@
         "discount": "Discounted tickets to all concerts for under 30s",
         "url": "https://lpo.org.uk/tickets-and-discounts/under-30s/",
         "image": "https://d3mqx2bczuht49.cloudfront.net/_imager/files/Aldebugh-Festival-2024/790602/LPORFH1_e57078b35996c6eab992c4d898046c39.JPG"
+    },
+    {
+        "name": "Disney Tickets Magical Mondays",
+        "types": "Theatre",
+        "discount": "£30 tickets to selected Disney shows",
+        "url": "https://www.disneytickets.co.uk/disney-day-seats-tickets",
+        "image": "https://lumiere-a.akamaihd.net/v1/images/disney-day-tickets_hero_m_a7f911fb.jpeg"
     }
 ]

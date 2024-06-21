@@ -36,6 +36,9 @@
     margin: 0px;
     padding: 0px;
 }
+img {
+    display: block;
+}
 
 /* CONTENT */
 .content {
@@ -72,7 +75,7 @@
     object-fit: cover;
 }
 .item_content {
-    padding: 5px 15px 15px 15px;
+    padding: 10px 15px 15px 15px;
 }
 .row {
     display: flex;

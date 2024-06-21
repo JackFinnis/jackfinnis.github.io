@@ -20,6 +20,15 @@
                     Please <a class="underline" href="mailto:jack.finnis@icloud.com" target="_blank">email me</a> if I have missed any and I will include them here.
                     KCL has put together <a class="underline" href="https://www.kcl.ac.uk/cultural/connecting/explore-cultural-london" target="_blank">this</a> fantastic summary of culture in London.
                 </p>
+                <select class="larger" onchange="filter_discounts(this.value)">
+                    <option value="">All Discounts</option>
+                    <option>Theatre</option>
+                    <option>Opera</option> 
+                    <option>Music</option>
+                    <option>Dance</option>
+                    <option>Film</option>
+                    <option>Art</option>
+                </select>
                 <div id="discounts_grid" class="grid large_gap"></div>
             </div>
             <a id="footer" href="/">© 2024 Jack Finnis</a>
@@ -31,39 +40,53 @@ async function load_discounts() {
     let sorted = theatres.sort((a, b) => a.name.localeCompare(b.name))
     
     for (let theatre of sorted) {
-        item = document.createElement('a')
+        let item = document.createElement('a')
         item.className = 'item'
         item.href = theatre.url
         item.target = '_blank'
         discounts_grid.appendChild(item)
         
-        image = document.createElement('img')
+        let image = document.createElement('img')
         image.className = 'item_image'
         image.src = theatre.image
         item.appendChild(image)
         
-        content = document.createElement('div')
+        let content = document.createElement('div')
         content.className = 'item_content'
         item.appendChild(content)
 
-        title = document.createElement('h3')
+        let title = document.createElement('h3')
         title.innerHTML = theatre.name
         content.appendChild(title)
 
-        types = document.createElement('div')
-        types.className = 'row small_gap'
-        content.appendChild(types)
+        let types_row = document.createElement('div')
+        types_row.className = 'row small_gap'
+        content.appendChild(types_row)
 
-        for (let type of theatre.types.split(',').toSorted()) {
-            p = document.createElement('p')
+        let types = theatre.types.split(',').toSorted()
+        for (let type of types) {
+            let p = document.createElement('p')
             p.className = 'secondary'
             p.innerHTML = type
-            types.appendChild(p)
+            types_row.appendChild(p)
         }
 
-        discount = document.createElement('p')
+        let discount = document.createElement('p')
         discount.innerHTML = theatre.discount
         content.appendChild(discount)
+    }
+}
+
+function filter_discounts(type) {
+    console.log(type)
+    let items = document.getElementsByClassName('item')
+    for (let item of items) {
+        let types = Array.from(item.getElementsByClassName('secondary')).map(e => e.innerHTML)
+        if (type == "" || types.includes(type)) {
+            item.style.display = 'block'
+        } else {
+            item.style.display = 'none'
+        }
     }
 }
 

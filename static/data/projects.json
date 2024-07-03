@@ -1,5 +1,12 @@
 [
     {
+        "title": "City of London Churches",
+        "description": "Visit over 70 churches in the city of London.",
+        "image": "city_of_london_churches.jpeg",
+        "url": "https://www.google.com/maps/d/u/0/viewer?mid=17Ig7dCq8TFOkOGAp3yV8u9kVTckwUSM",
+        "date": "July 2024"
+    },
+    {
         "title": "London Theatre Student Discounts",
         "description": "Every student discount available for theatre, musical, opera, music, dance and film tickets in London.",
         "image": "theatre_discounts.jpeg",
@@ -9,7 +16,7 @@
     {
         "title": "Find a Church",
         "description": "Browse over 45,000 UK churches and mark churches as visited to track your progress.",
-        "image": "churches.jpeg",
+        "image": "find_a_church.jpeg",
         "date": "May 2024"
     },
     {

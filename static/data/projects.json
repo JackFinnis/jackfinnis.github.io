@@ -71,12 +71,6 @@
         "date": "January 2023"
     },
     {
-        "title": "Matt Cartoons",
-        "description": "View today's Matt cartoon from the Daily Telegraph and browse over 2,000 cartoons since 2016.",
-        "image": "matt.jpg",
-        "date": "December 2022"
-    },
-    {
         "title": "GeoViewer",
         "description": "Import and view geographical data files in the most common formats: GPX, KML and GeoJSON.",
         "image": "geo_viewer.jpeg",

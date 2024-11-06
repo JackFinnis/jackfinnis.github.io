@@ -1,9 +1,9 @@
 [
     {
-        "title": "City of London Churches",
-        "description": "Visit over 70 churches in the city of London.",
+        "title": "London Churches",
+        "description": "Visit 389 historic churches across central London.",
         "image": "city_of_london_churches.jpeg",
-        "url": "https://www.google.com/maps/d/u/0/viewer?mid=17Ig7dCq8TFOkOGAp3yV8u9kVTckwUSM",
+        "url": "https://www.google.com/maps/d/u/0/viewer?mid=1QXFpc3_QGCHj_XqOjIMpPMZNzPbtp1U",
         "date": "July 2024"
     },
     {
@@ -14,13 +14,7 @@
         "date": "June 2024"
     },
     {
-        "title": "Find a Church",
-        "description": "Browse over 45,000 UK churches and mark churches as visited to track your progress.",
-        "image": "find_a_church.jpeg",
-        "date": "May 2024"
-    },
-    {
-        "title": "My Quotes",
+        "title": "Quotes",
         "description": "Store your favourite quotes and see them on your home screen to motivate you throughout the day.",
         "image": "quotes.jpeg",
         "date": "April 2024"
@@ -71,14 +65,14 @@
         "date": "January 2023"
     },
     {
-        "title": "GeoViewer",
+        "title": "Geodata Viewer",
         "description": "Import and view geographical data files in the most common formats: GPX, KML and GeoJSON.",
         "image": "geo_viewer.jpeg",
         "url": "https://apps.apple.com/app/6443628020",
         "date": "November 2022"
     },
     {
-        "title": "Cycle Lane",
+        "title": "Cycle Lanes",
         "description": "View every TfL cycle route in London on one map; choose a safer route to cycle across the city.",
         "image": "cycle_lane.jpeg",
         "url": "https://apps.apple.com/app/6443831383",
@@ -92,7 +86,7 @@
         "date": "September 2022"
     },
     {
-        "title": "Papa John's Widget",
+        "title": "Papa John's Offers",
         "description": "Built a widget for the Papa John's iOS app which shows your current order status and today's offers.",
         "image": "papa_johns.jpeg",
         "date": "September 2022"

@@ -71,8 +71,12 @@
                     return
                 }
 
+                var image = '/static/images/apps/' + app.image
+                document.querySelector('link[rel="apple-touch-icon"]').href = image
+                document.querySelector('meta[property="og:image"]').content = image
+
                 document.title = app.name + " by Jack Finnis"
-                icon.src = '/static/images/apps/' + app.image
+                icon.src = image
                 title.innerHTML = app.name
                 about.innerHTML = app.about
                 support.innerHTML = app.support

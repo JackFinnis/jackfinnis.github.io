@@ -13,4 +13,8 @@ def discounts():
 def app_():
     return render_template('app.html')
 
+@app.route('/terms')
+def terms():
+    return render_template('terms.html')
+
 app.run(host='0.0.0.0')

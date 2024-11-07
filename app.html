@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, viewport-fit=cover">
+        <link rel="stylesheet" href="/static/style.css">
+
+        <title>Placeholder</title>
+		<link rel="icon" href="/static/images/logos/memoji.png">
+		<link rel="apple-touch-icon" href="/static/images/logos/memoji.jpeg">
+        <meta property="og:image" content="/static/images/logos/memoji.jpeg">
+
+        <style>
+            #icon {
+                width: 130px;
+                border-radius: 25%;
+            }
+            body > div {
+                min-height: 100vh;
+            }
+            .content {
+                flex: 1;
+                max-width: 500px;
+            }
+            .content a {
+                color: var(--accent);
+            }
+        </style>
+    </head>
+    <body class="center">
+        <div class="column">
+            <div class="content column large_gap">
+                <img id="icon" aria-hidden="true" src="/static/images/logos/memoji.jpeg">
+
+                <div class="column">
+                    <h1 id="title"></h1>
+                    <p class="larger">by Jack Finnis</p>
+                </div>
+
+                <div class="column align_leading large_gap">
+                    <div class="column align_leading">
+                        <h2>About</h2>
+                        <p id="about"></p>
+                    </div>
+        
+                    <div class="column align_leading">
+                        <h2>Support</h2>
+                        <p id="support"></p>
+                        <br>
+                        <p>If you are still facing trouble, please contact me at <a href="mailto:jack.finnis@icloud.com">jack.finnis@icloud.com</a></p>
+                    </div>
+        
+                    <div class="column align_leading">
+                        <h2>Privacy Policy</h2>
+                        <p id="privacy_policy"></p>
+                    </div>
+                </div>
+            </div>
+    
+            <a id="footer" href="/">© 2024 Jack Finnis</a>
+        </div>
+        <script>
+            async function load_app() {
+                var response = await fetch('/static/data/apps.json')
+                var apps = await response.json()
+                var slug = window.location.hash.substring(1)
+                var app = apps.find(app => app.slug == slug)
+
+                if (!app) {
+                    window.location.href = '/'
+                    return
+                }
+
+                document.title = app.name + " by Jack Finnis"
+                icon.src = '/static/images/apps/' + app.image
+                title.innerHTML = app.name
+                about.innerHTML = app.about
+                support.innerHTML = app.support
+                privacy_policy.innerHTML = app.privacy_policy ?? "This app does not collect any data."
+            }
+
+            load_app().then()
+        </script>
+    </body>
+</html>

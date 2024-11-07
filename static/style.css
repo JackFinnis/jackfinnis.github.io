@@ -8,17 +8,19 @@
     :root {
         --primary: black;
         --background: white;
+        --accent: #007AFF
     }
 }
 @media(prefers-color-scheme: dark) {
     :root {
         --primary: white;
         --background: black;
+        --accent: #0A84FF
     }
 }
 .secondary {
     color: var(--secondary);
-    font-weight: 700;
+    font-weight: 500;
 }
 
 /* GENERAL */
@@ -155,5 +157,5 @@ button, a {
 
 /* FOOTER */
 #footer {
-    padding: 20px;
+    padding-bottom: 50px;
 }

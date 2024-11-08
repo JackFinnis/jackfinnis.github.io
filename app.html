@@ -64,7 +64,7 @@
                         <p>By using the app, you agree to the <a href="/terms">Terms of Use</a>.</p>
                     </div>
 
-                    <div class="column align_leading">
+                    <div id="acknowledgements_div" class="column align_leading">
                         <h2>Acknowledgements</h2>
                         <p id="acknowledgements"></p>
                     </div>
@@ -90,6 +90,12 @@
                 } else {
                     download_button.style.display = 'none'
                 }
+                
+                if (app.acknowledgements) {
+                    acknowledgements.innerHTML = app.acknowledgements
+                } else {
+                    acknowledgements_div.style.display = 'none'
+                }
 
                 image = '/static/images/apps/' + app.image
                 document.querySelector('link[rel="apple-touch-icon"]').href = image
@@ -99,7 +105,6 @@
                 icon.src = image
                 title.innerHTML = app.name
                 about.innerHTML = app.about
-                acknowledgements.innerHTML = app.acknowledgements
                 support.innerHTML = app.support
                 privacy_policy.innerHTML = app.privacy_policy ?? "This app does not collect any data."
             }

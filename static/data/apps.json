@@ -70,5 +70,21 @@
         "about": "Easily keep track of all the countries you have visited. Add the countries you have visited to your travel map. Get inspiration for the next new country you want to visit.",
         "support": "Travel Map is a simple app to help you keep track of all the countries you have visited. Tap on a country on the map on in the list to mark it as visited. Tap it again to undo.",
         "acknowledgements": "<a href='https://www.naturalearthdata.com'>Natural Earth</a><br><a href='https://www.flaticon.com'>Flaticon</a>"
+    },
+    {
+        "id": "6458223404",
+        "image": "counter.jpeg",
+        "slug": "counter",
+        "name": "Simple Counter",
+        "about": "A super simple counter app.",
+        "support": "Tap on the left of the screen to decrement and tap on the right to increment. Tap the reset button to reset the counter to zero."
+    },
+    {
+        "id": "6458223059",
+        "image": "notepad.jpeg",
+        "slug": "notepad",
+        "name": "Simple Notepad",
+        "about": "A super simple notepad app. Jot down ideas, save important links, easily create calendar events, take notes in a meeting or lecture, check the character-count of a Tweet, look up a word in the dictionary, translate a scentence to any language, scan text from a document, convert text to speech",
+        "support": "Notepad is a simple app to help you jot down notes. It does not allow you to create multiple notepads or revisit old notes."
     }
 ]

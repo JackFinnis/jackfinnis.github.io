@@ -5,5 +5,54 @@
         "name": "London Churches",
         "about": "Visit over 300 historic churches across central London. Mark churches as visited and see your progress on the map. Get directions to the church and view opening times in Google Maps.",
         "support": "If the map or churches are not loading, please ensure you are connected to the internet and try again. The app works best when you have downloaded the <a href='https://apps.apple.com/gb/app/google-maps-transit-food/id585027354?ppid=29af73fc-7b1d-4f96-8719-7897fafa5c58'>Google Maps app</a> for directions and opening times."
+    },
+    {
+        "image": "fourier.jpeg",
+        "slug": "fourier",
+        "name": "Fourier",
+        "about": "Draw a squiggle with your finger or upload an SVG file and Fourier will convert in into a beautiful epicycle drawing. Experiment using different numbers of epicycles to approximate your drawing. Share your favourite squiggles with your friends.<br><br>Learn more about the Complex Fourier Series <a href='https://youtu.be/r6sGWTCMz2k'>here</a>.",
+        "support": "You can draw a new squiggle at any time by dragging your finger across the screen. Try experimenting with different numbers of epicycles on the provided example files. Some SVG files may not be supported. If you have any issues, please try again with a different file."
+    },
+    {
+        "image": "tube_status.jpeg",
+        "slug": "tube_status",
+        "name": "Tube Status",
+        "about": "View the live status of all London Underground lines. Save your favourite lines to see them first. Add widgets to your home screen to see the status of your favourite lines at a glance.",
+        "support": "If the current tube status is not loading, please ensure you are connected to the internet and try again. Information shown on the app is provided by TFL but may not be correct."
+    },
+    {
+        "image": "geodata_viewer.jpg",
+        "slug": "geodata_viewer",
+        "name": "Geodata Viewer",
+        "about": "Import and view GeoJSON, KML and GPX files on an interactive map. Store and manage your files in the app and view them at any time.",
+        "support": "If you are unable to import a file from a URL, please ensure you are connected to the internet and try again. Some files may not be supported. To identify errors in geodata files, please use the relevant following tool: <a href='https://geojson.io'>GeoJSON</a>, <a href='https://mymaps.google.com'>KML</a>, <a href='https://gpx.studio/app'>GPX</a>."
+    },
+    {
+        "image": "app_icon_maker.jpeg",
+        "slug": "app_icon_maker",
+        "name": "App Icon Maker",
+        "about": "Create beautiful app icons for your personal apps in seconds. Easily differentiate the apps you are developing on your phone. Export icons in PNG format and paste them directly into your Xcode project. Export icon layers separately for visionOS.",
+        "support": "Do not submit apps to the App Store using app icons created using this app. They use Apple's SF Symbols and your app will be rejected. Only use these app icons to easily differentiate apps you are developing privately on your device.<br><br>To create a new app icon, tap on the plus button at the top right of the home screen. You can only personalise the icon shape, symbol, symbol size and background colour. This is to maintain a consistent icon style and save your time tweaking."
+    },
+    {
+        "image": "shopping_list.jpeg",
+        "slug": "shopping_list",
+        "name": "Shopping List",
+        "about": "Your new smart shopping list. Add ingredients and items to your shopping list. Save your favourite items so you don't forget them in your next shop. Store all your favourite recipes in one place. Browse your recipes to pick tonight's meal. Add all the ingredients for the recipe to your shopping list.",
+        "support": "Shopping List is a simple app to help you manage your shopping list and your recipes. It does not allow you to search for new recipes. Once you have added a recipe and its ingredients manually, you can add all the ingredients to your shopping list as many times as you like."
+    },
+    {
+        "image": "quotes.jpeg",
+        "slug": "quotes",
+        "name": "Quotes",
+        "about": "Quotes is the perfect place to store all your favourite quotes. Add quotes from your favourite authors, books and movies. Browse your quotes to cheer you up when you feel down or inspire you to chase your dreams.",
+        "support": "Quotes is a simple app to help you keep track of your favourite quotes. It does not allow you to search for new quotes."
+    },
+    {
+        "image": "travel_map.jpeg",
+        "slug": "travel_map",
+        "name": "Travel Map",
+        "about": "Easily keep track of all the countries you have visited. Add the countries you have visited to your travel map. Get inspiration for the next new country you want to visit.",
+        "support": "Travel Map is a simple app to help you keep track of all the countries you have visited. Tap on a country on the map on in the list to mark it as visited. Tap it again to undo."
     }
 ]

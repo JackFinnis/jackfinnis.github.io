@@ -67,10 +67,10 @@
         </div>
         <script>
 async function load_projects() {
-    var response = await fetch('/static/data/projects.json')
-    var projects = await response.json()
+    response = await fetch('/static/data/projects.json')
+    projects = await response.json()
     
-    for (var project of projects) {
+    for (project of projects) {
         if (project.url) {
             item = document.createElement('a')
             item.href = project.url

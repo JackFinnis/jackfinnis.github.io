@@ -37,6 +37,10 @@
                     <p class="larger">by Jack Finnis</p>
                 </div>
 
+                <a id="download_button">
+                    <img aria-hidden="true" height="50" src="/static/images/apps/download.svg">
+                </a>
+
                 <div class="column align_leading large_gap">
                     <div class="column align_leading">
                         <h2>About</h2>
@@ -59,6 +63,11 @@
                         <h2>Terms of Use</h2>
                         <p>By using the app, you agree to the <a href="/terms">Terms of Use</a>.</p>
                     </div>
+
+                    <div class="column align_leading">
+                        <h2>Acknowledgements</h2>
+                        <p id="acknowledgements"></p>
+                    </div>
                 </div>
             </div>
     
@@ -66,17 +75,23 @@
         </div>
         <script>
             async function load_app() {
-                var response = await fetch('/static/data/apps.json')
-                var apps = await response.json()
-                var slug = window.location.hash.substring(1)
-                var app = apps.find(app => app.slug == slug)
+                response = await fetch('/static/data/apps.json')
+                apps = await response.json()
+                slug = window.location.hash.substring(1)
+                app = apps.find(app => app.slug == slug)
 
                 if (!app) {
                     window.location.href = '/'
                     return
                 }
 
-                var image = '/static/images/apps/' + app.image
+                if (app.id) {
+                    download_button.href = "https://apps.apple.com/app/" + app.id
+                } else {
+                    download_button.style.display = 'none'
+                }
+
+                image = '/static/images/apps/' + app.image
                 document.querySelector('link[rel="apple-touch-icon"]').href = image
                 document.querySelector('meta[property="og:image"]').content = image
 
@@ -84,6 +99,7 @@
                 icon.src = image
                 title.innerHTML = app.name
                 about.innerHTML = app.about
+                acknowledgements.innerHTML = app.acknowledgements
                 support.innerHTML = app.support
                 privacy_policy.innerHTML = app.privacy_policy ?? "This app does not collect any data."
             }

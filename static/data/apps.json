@@ -94,5 +94,21 @@
         "name": "Paddle Map",
         "about": "View every navigable canal and river in the UK. Add Locks, Weirs and Access Points to the map to plan your next paddle. Calculate the length of your route and get directions to the start.",
         "support": "Paddle Map only shows canals and rivers in the UK. It does not show any Locks, Weirs or Access Points to start. You can add these yourself by tapping on the plus button."
+    },
+    {
+        "id": "6738012734",
+        "image": "camera.jpeg",
+        "slug": "camera",
+        "name": "Selfie Camera",
+        "about": "View your front facing selfie camera live video stream. Prepare yourself and your surroundings before a video call. Flip the camera horizontall to see yourself in the mirror.",
+        "support": "This is a very simple app which acts as a mirror. It does not allow you to take photos or videos. It just shows you a live video stream from your front facing camera so you can prepare before a video call."
+    },
+    {
+        "id": "6738003386",
+        "image": "color_picker.jpeg",
+        "slug": "color_picker",
+        "name": "Colour Picker",
+        "about": "Get the exact colour of any pixel on your screen. Find colours used in images and on websites. Copy the colour's hex code to your clipboard to use in your next project. Convert colours between different colour profiles.",
+        "support": "This is a very simple app which allows you to pick colours from your screen. It does not allow you to save colours. It is specifically for finding the hex code of colours on websites or in images."
     }
 ]

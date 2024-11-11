@@ -96,7 +96,7 @@
         "support": "Paddle Map only shows canals and rivers in the UK. It does not show any Locks, Weirs or Access Points to start. You can add these yourself by tapping on the plus button."
     },
     {
-        "id": "6738012734",
+        "id": "6738003386",
         "image": "camera.jpeg",
         "slug": "camera",
         "name": "Selfie Camera",
@@ -104,7 +104,7 @@
         "support": "This is a very simple app which acts as a mirror. It does not allow you to take photos or videos. It just shows you a live video stream from your front facing camera so you can prepare before a video call."
     },
     {
-        "id": "6738003386",
+        "id": "6738003520",
         "image": "color_picker.jpeg",
         "slug": "color_picker",
         "name": "Colour Picker",

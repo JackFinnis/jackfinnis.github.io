@@ -98,9 +98,9 @@
     {
         "id": "6738003386",
         "image": "camera.jpeg",
-        "slug": "camera",
-        "name": "Selfie Camera",
-        "about": "View your front facing selfie camera live video stream. Prepare yourself and your surroundings before a video call. Flip the camera horizontall to see yourself in the mirror.",
+        "slug": "mirror",
+        "name": "Mirror",
+        "about": "View your front facing selfie camera live video stream as if your screen is a mirror. Prepare yourself and your surroundings before a video call. Flip the camera horizontall to see yourself in the mirror.",
         "support": "This is a very simple app which acts as a mirror. It does not allow you to take photos or videos. It just shows you a live video stream from your front facing camera so you can prepare before a video call."
     },
     {

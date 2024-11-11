@@ -1,5 +1,12 @@
 [
     {
+        "title": "Travel Map",
+        "description": "Keep track of all the countries you've visited.",
+        "image": "travel_map.jpg",
+        "url": "/app#travel_map",
+        "date": "September 2024"
+    },
+    {
         "title": "London Churches",
         "description": "Visit 389 historic churches across central London.",
         "image": "city_of_london_churches.jpeg",
@@ -22,7 +29,7 @@
     },
     {
         "title": "Tube Status",
-        "description": "View the live status of all London TfL tube lines, buses and river services.",
+        "description": "View the live status of all TfL London Underground lines.",
         "image": "tube_status.jpeg",
         "url": "/app#tube_status",
         "date": "February 2024"
@@ -49,12 +56,6 @@
         "date": "2023-present"
     },
     {
-        "title": "UK Trails",
-        "description": "Discover 45 long-distance walking trails through the UK's most breathtaking landscapes.",
-        "image": "trails.jpg",
-        "date": "August 2023"
-    },
-    {
         "title": "Get Feedback",
         "description": "The easiest way for your business to get anonymous feedback from customers.",
         "image": "feedback.jpeg",
@@ -63,48 +64,47 @@
     },
     {
         "title": "Headlines",
-        "description": "Read the latest stories from BBC News and BBC Sport and choose from over 50 topics to follow.",
+        "description": "Read the latest stories from BBC News and BBC Sport. Choose from over 50 topics to follow.",
         "image": "headlines.jpg",
         "date": "January 2023"
     },
     {
         "title": "Geodata Viewer",
-        "description": "Import and view geographical data files in the most common formats: GPX, KML and GeoJSON.",
+        "description": "Import any GPX, KML or GeoJSON file and browse the data on an interactive map.",
         "image": "geo_viewer.jpeg",
         "url": "/app#geodata_viewer",
         "date": "November 2022"
     },
     {
         "title": "Cycle Lanes",
-        "description": "View every TfL cycle route in London on one map; choose a safer route to cycle across the city.",
+        "description": "Browse every TfL cycle lane in London on one map. Choose a safer route to cycle across the city.",
         "image": "cycle_lane.jpeg",
-        "url": "https://apps.apple.com/app/6443831383",
         "date": "October 2022"
     },
     {
-        "title": "Just Cook",
-        "description": "Store all your recipes, plan weekly meals and manage your shopping list.",
+        "title": "My Recipes & Shopping List",
+        "description": "Store all your recipes and manage your shopping list.",
         "image": "just_cook.jpeg",
-        "url": "https://apps.apple.com/app/6443628020",
+        "url": "/app#shopping_list",
         "date": "September 2022"
     },
     {
         "title": "Papa John's Offers",
-        "description": "Built a widget for the Papa John's iOS app which shows your current order status and today's offers.",
+        "description": "Built a Widget for the Papa John's app which shows your current order status and today's offers.",
         "image": "papa_johns.jpeg",
         "date": "September 2022"
     },
     {
         "title": "Texaco Rewards",
-        "description": "Built an App Clip for Texaco which provides a fast sign-up process for their rewards program.",
+        "description": "Built an App Clip for Texaco which provides a streamlined sign-up process for their rewards program.",
         "image": "texaco_rewards.jpeg",
         "date": "August 2022"
     },
     {
         "title": "Paddle Map",
-        "description": "Navigate over 12,500km of canals, rivers and waterways in the UK.",
+        "description": "Plan your next kayaking trip. Browse every canal, river and waterway in the UK.",
         "image": "paddle_map.jpeg",
-        "url": "https://apps.apple.com/app/6443834631",
+        "url": "/app#paddle_map",
         "date": "July 2022"
     },
     {
@@ -117,12 +117,11 @@
         "title": "Quick-fire Questions",
         "description": "Help your students retain the information they learn in class using fast-paced quizzes.",
         "image": "quickfire_questions.jpeg",
-        "url": "https://apps.apple.com/app/1604276626",
         "date": "November 2021"
     },
     {
         "title": "Complex Fourier Series Visualiser",
-        "description": "Trasform an svg file or image into an epicycle drawing using the complex Fourier series.",
+        "description": "Trasform an SVG file or squiggle into an epicycle drawing using the complex Fourier series.",
         "image": "fourier.jpeg",
         "url": "/app#fourier",
         "date": "September 2021"
@@ -136,9 +135,8 @@
     },
     {
         "title": "Conway's Game of Life",
-        "description": "Conway's Game of Life is a cellular automaton which derives each new state based on a set of rules applied to the current state.",
+        "description": "Investigate Conway's mesmerising cellular automaton.",
         "image": "game_of_life.jpeg",
-        "url": "https://apps.apple.com/app/id1581284326",
         "date": "June 2021"
     },
     {
@@ -157,7 +155,7 @@
     },
     {
         "title": "Machine Learning in R",
-        "description": "Analysed air quality data using Neural Networks and Principal Component Analysis in R.",
+        "description": "Analysed air quality data using Artificial Neural Networks and Principal Component Analysis in R.",
         "image": "air_quality.jpeg",
         "url": "https://www.youtube.com/watch?v=DxXmsUqNYYM",
         "date": "June 2020"
@@ -171,7 +169,7 @@
     },
     {
         "title": "Jack Finnis Art",
-        "description": "Ran my own online art business designing and selling charity Christmas and greeting cards.",
+        "description": "Started my own online art business designing and selling charity Christmas and greeting cards.",
         "image": "toboggan_ride.jpeg",
         "date": "2019-2024"
     }

@@ -1,5 +1,12 @@
 [
     {
+        "title": "Screen Time Tracker",
+        "description": "We all use our phones too much. Decrease the time you spend on unproductive apps.",
+        "image": "screen_time.jpg",
+        "url": "/app#screen_time",
+        "date": "December 2024"
+    },
+    {
         "title": "Travel Map",
         "description": "Keep track of all the countries you've visited.",
         "image": "travel_map.jpg",

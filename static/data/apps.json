@@ -110,5 +110,14 @@
         "name": "Colour Picker",
         "about": "Get the exact colour of any pixel on your screen. Find colours used in images and on websites. Copy the colour's hex code to your clipboard to use in your next project. Convert colours between different colour profiles.",
         "support": "This is a very simple app which allows you to pick colours from your screen. It does not allow you to save colours. It is specifically for finding the hex code of colours on websites or in images."
+    },
+    {
+        "id": "6738397686",
+        "image": "screen_time.jpeg",
+        "slug": "screen_time",
+        "name": "Screen Time Tracker",
+        "about": "We all use our phones too much. Screen Time Tracker gives you what you need to track how much you use your phone and motivate you to use it less. See exactly how long you use each app on your iPhone, iPad and Mac every day for the last month. Mark apps as productive to remove them from your average screen time.",
+        "support": "This is a very simple app to help you track your screen time on your devices. To select productive apps, tap 'Edit', search for the app name, then tap on it.",
+        "acknowledgements": "<a href='https://www.flaticon.com'>Flaticon</a>"
     }
 ]

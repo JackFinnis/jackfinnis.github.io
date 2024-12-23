@@ -17,4 +17,8 @@ def app_():
 def terms():
     return render_template('terms.html')
 
+@app.route('/1')
+def clue():
+    return render_template('1.html')
+
 app.run(host='0.0.0.0')

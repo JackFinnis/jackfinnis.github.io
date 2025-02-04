@@ -73,6 +73,7 @@
         "title": "Headlines",
         "description": "Read the latest stories from BBC News and BBC Sport. Choose from over 50 topics to follow.",
         "image": "headlines.jpg",
+        "url": "/app#headlines",
         "date": "January 2023"
     },
     {

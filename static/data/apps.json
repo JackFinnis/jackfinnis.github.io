@@ -127,6 +127,6 @@
         "name": "Headlines",
         "about": "Waste time on infinite-scroll news? Tired of clickbait photos? Headlines shows you the top 10 headlines from BBC News. Mark stories as read to remove them from your feed. Browse the full story in Safari.",
         "support": "This is a very simple app that just shows you the top 10 headlines from BBC News. It does not show stories from any other news sources. If the news is not loading, please ensure you are connected to the internet and try again.",
-        "acknowledgements": "<a href='https://github.com/nmdias/FeedKit'>FeedKit</a>"
+        "acknowledgements": "<a href='https://github.com/nmdias/FeedKit'>FeedKit</a><br><a href='https://bbc.co.uk/news'>BBC News</a>"
     }
 ]

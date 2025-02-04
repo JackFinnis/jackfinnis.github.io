@@ -119,5 +119,14 @@
         "about": "We all use our phones too much. Screen Time Tracker gives you what you need to track how much you use your phone and motivate you to use it less. See exactly how long you use each app on your iPhone, iPad and Mac every day for the last month. Mark apps as productive to remove them from your average screen time.",
         "support": "This is a very simple app to help you track your screen time on your devices. To select productive apps, tap 'Edit', search for the app name, then tap on it.",
         "acknowledgements": "<a href='https://www.flaticon.com'>Flaticon</a>"
+    },
+    {
+        "id": "1665239001",
+        "image": "headlines.jpeg",
+        "slug": "headlines",
+        "name": "Headlines",
+        "about": "Waste time on infinite-scroll news? Tired of clickbait photos? Headlines shows you the top 10 headlines from BBC News. Mark stories as read to remove them from your feed. Browse the full story in Safari.",
+        "support": "This is a very simple app that just shows you the top 10 headlines from BBC News. It does not show stories from any other news sources. If the news is not loading, please ensure you are connected to the internet and try again.",
+        "acknowledgements": "<a href='https://github.com/nmdias/FeedKit'>FeedKit</a>"
     }
 ]

@@ -1,5 +1,12 @@
 [
     {
+        "title": "Crowflies",
+        "description": "Get the direction and distance as the crow flies to anywhere in the world.",
+        "image": "crowflies.jpg",
+        "url": "/app#crowflies",
+        "date": "February 2024"
+    },
+    {
         "title": "Screen Time Tracker",
         "description": "We all use our phones too much. Decrease the time you spend on unproductive apps.",
         "image": "screen_time.jpg",

@@ -128,5 +128,14 @@
         "about": "Waste time on infinite-scroll news? Tired of clickbait photos? Headlines shows you the top 10 headlines from BBC News. Mark stories as read to remove them from your feed. Browse the full story in Safari.",
         "support": "This is a very simple app that just shows you the top 10 headlines from BBC News. It does not show stories from any other news sources. If the news is not loading, please ensure you are connected to the internet and try again.",
         "acknowledgements": "<a href='https://github.com/nmdias/FeedKit'>FeedKit</a><br><a href='https://bbc.co.uk/news'>BBC News</a>"
+    },
+    {
+        "id": "6741691563",
+        "image": "crowflies.jpeg",
+        "slug": "crowflies",
+        "name": "Crowflies",
+        "about": "Get the direction and distance as the crow flies to anywhere in the world! Tap a place on the map or search for a place.",
+        "support": "This is a very simple app that just shows you get the direction and distance to anywere in the world. It does not provide detailed directions. If the map isn't loading, please ensure you are connected to the internet and try again.",
+        "acknowledgements": "<a href='https://www.flaticon.com'>Flaticon</a>"
     }
 ]

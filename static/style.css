@@ -126,11 +126,8 @@ select {
 .grid a:hover {
     transform: scale(1.02);
 }
-.plain_button {
-    text-decoration: underline;
-}
-.plain_button:hover {
-    text-decoration: none;
+p a {
+    color: var(--accent);
 }
 
 /* FOOTER */

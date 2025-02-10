@@ -101,8 +101,8 @@
         "name": "British Film Institute",
         "types": "Film",
         "discount": "£3 tickets to all films for 16-25 year olds",
-        "url": "https://whatson.bfi.org.uk/Online/default.asp?BOparam::WScontent::loadArticle::permalink=25-and-under&BOparam::WScontent::loadArticle::context_id=",
-        "image": "https://www.carlislesupportservices.com/wp-content/uploads/2020/01/PHOTO-BFI.jpg"
+        "url": "https://whatson.bfi.org.uk/Online/default.asp?BOparam::WScontent::loadArticle::permalink=25-and-under",
+        "image": "https://whatson.bfi.org.uk/content/Images/features/bfi-imax-bond-wrap-september-2021.jpeg"
     },
     {
         "name": "Regents Park Open Air Theatre",
@@ -214,7 +214,7 @@
         "types": "Art",
         "discount": "50% off tickets to major London exhibitions for students",
         "url": "https://www.studentartpass.org",
-        "image": "https://www.arts.ac.uk/__data/assets/image/0020/190091/AF_Paper_620x364.jpg"
+        "image": "https://pbs.twimg.com/media/FfHZlvnWQAMRuT2.jpg"
     },
     {
         "name": "Tate Collective",

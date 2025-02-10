@@ -1,13 +1,9 @@
 /* COLOURS */
-:root {
-    --lighter: rgba(255, 255, 255, 0.1);
-    --darker: rgba(0, 0, 0, 0.2);
-    --secondary: #8A8A8E;
-}
 @media(prefers-color-scheme: light) {
     :root {
         --primary: black;
-        --background: white;
+        --background: #F2F2F7;
+        --container: white;
         --accent: #007AFF
     }
 }
@@ -15,12 +11,9 @@
     :root {
         --primary: white;
         --background: black;
+        --container: #1C1C1E;
         --accent: #0A84FF
     }
-}
-.secondary {
-    color: var(--secondary);
-    font-weight: 500;
 }
 
 /* GENERAL */
@@ -38,14 +31,6 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-}
-img {
-    display: block;
-}
-select {
-    font-size: 1rem;
-    outline: none;
-    -webkit-tap-highlight-color: transparent;
 }
 
 /* CONTENT */
@@ -69,13 +54,7 @@ select {
     max-width: 400px;
     border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0px 10px 10px #eee;
-}
-@media(prefers-color-scheme: dark) {
-    .item {
-        background-color: var(--lighter);
-        box-shadow: none;
-    }
+    background: var(--container);
 }
 .item_image {
     aspect-ratio: 1;
@@ -104,11 +83,19 @@ select {
 .large_gap {
     gap: 20px;
 }
+
+/* FONT */
+.medium {
+    font-weight: 500;
+}
 .larger {
     font-size: 1.1rem;
 }
 
 /* IMAGES */
+img {
+    display: block;
+}
 .icon {
     width: 30px;
     height: 30px;
@@ -126,33 +113,24 @@ button, a {
     background: none;
     text-decoration: none;
     color: inherit;
-    transition: opacity var(--animation_duration);
     -webkit-tap-highlight-color: transparent;
 }
-@media(hover: hover) {
-    button:hover, a:hover {
-        opacity: 0.75;
-        text-decoration: none;
-    }
+select {
+    font-size: 1rem;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
 }
-.prominent_button {
-    padding: 10px 20px;
-    border-radius: 100px;
-    color: var(--background);
-    background-color: var(--primary);
+.grid a {
+    transition: transform var(--animation_duration);
 }
-.prominent_button .icon {
-    filter: invert(1);
-    width: 20px;
-    height: 20px;
+.grid a:hover {
+    transform: scale(1.02);
 }
-@media(prefers-color-scheme: dark) {
-    .prominent_button .icon {
-        filter: none
-    }
-}
-.underline {
+.plain_button {
     text-decoration: underline;
+}
+.plain_button:hover {
+    text-decoration: none;
 }
 
 /* FOOTER */

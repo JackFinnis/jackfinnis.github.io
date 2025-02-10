@@ -17,8 +17,8 @@
                 <p>
                     This is a comprehensive list of every major student discount available for theatre, opera, music, dance, film and art tickets in London.
                     Click on any of the discounts to be taken to the relevant website.
-                    Please <a class="underline" href="mailto:jack@jackfinnis.com" target="_blank">email me</a> if I have missed any and I will include them here.
-                    KCL has put together <a class="underline" href="https://www.kcl.ac.uk/cultural/connecting/explore-cultural-london" target="_blank" rel="noopener">this</a> fantastic summary of culture in London.
+                    Please <a class="plain_button" href="mailto:jack@jackfinnis.com" target="_blank">email me</a> if I have missed any and I will include them here.
+                    KCL has put together <a class="plain_button" href="https://www.kcl.ac.uk/cultural/connecting/explore-cultural-london" target="_blank" rel="noopener">this</a> fantastic summary of culture in London.
                 </p>
                 <select title="Filter Discounts" class="larger" onchange="filter_discounts(this.value)">
                     <option value="">All Discounts</option>
@@ -66,7 +66,7 @@ async function load_discounts() {
         let types = theatre.types.split(',').toSorted()
         for (let type of types) {
             let p = document.createElement('p')
-            p.className = 'secondary'
+            p.className = 'medium'
             p.innerHTML = type
             types_row.appendChild(p)
         }
@@ -81,7 +81,7 @@ function filter_discounts(type) {
     console.log(type)
     let items = document.getElementsByClassName('item')
     for (let item of items) {
-        let types = Array.from(item.getElementsByClassName('secondary')).map(e => e.innerHTML)
+        let types = Array.from(item.getElementsByClassName('medium')).map(e => e.innerHTML)
         if (type == "" || types.includes(type)) {
             item.style.display = 'block'
         } else {

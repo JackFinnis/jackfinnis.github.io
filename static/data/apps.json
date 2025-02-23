@@ -88,14 +88,6 @@
         "support": "Notepad is a simple app to help you jot down notes. It does not allow you to create multiple notepads or revisit old notes."
     },
     {
-        "id": "6738012734",
-        "image": "paddle.jpeg",
-        "slug": "paddle_map",
-        "name": "Paddle Map",
-        "about": "View every navigable canal and river in the UK. Add Locks, Weirs and Access Points to the map to plan your next paddle. Calculate the length of your route and get directions to the start.",
-        "support": "Paddle Map only shows canals and rivers in the UK. It does not show any Locks, Weirs or Access Points to start. You can add these yourself by tapping on the plus button."
-    },
-    {
         "id": "6738003386",
         "image": "camera.jpeg",
         "slug": "mirror",

@@ -116,6 +116,13 @@
         "date": "August 2022"
     },
     {
+        "title": "Paddle Map",
+        "description": "Plan your next kayaking trip. Browse every canal, river and waterway in the UK.",
+        "image": "paddle_map.jpeg",
+        "url": "/app#paddle_map",
+        "date": "July 2022"
+    },
+    {
         "title": "Ecommunity",
         "description": "Ever thought your actions for the environment won't make a difference? Post your good deeds for the environment to motivate your friends.",
         "image": "ecommunity.jpeg",
